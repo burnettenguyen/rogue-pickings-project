@@ -1,0 +1,133 @@
+/***** BASE STYLES *****/
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+#about {
+	height: 460px;
+	padding-bottom: 80px;
+}
+#menu, #reviews, #contact {
+	height: 210px;
+	margin-top: auto;
+}
+footer {
+	height: 50px;
+}
+
+/***** GRID *****/
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+.half-width {
+	width: 600px;
+	float: left;
+}
+.third-width {
+	width: 400px;
+	float: left;
+}
+/***** HEADER *****/
+header {
+	height: 100px;
+}
+header h1 {
+		color: #77a466;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 30px;
+		font-weight: 700;
+		text-transform: uppercase;
+		line-height: 0.767;
+    padding: 65px 0 65px 25px;
+}
+header h1 span {
+	color: #2b2b2b;
+}
+nav {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 400;
+    float: right;
+    padding: 75px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform:uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color: #77a466;
+		line-height: 1.643px;
+    padding-left: 10px;
+}
+
+/***** ABOUT *****/
+#about {
+	margin-bottom: 40px;
+}
+#about img {
+	border: 5px solid #9bbc8f;
+}
+#about h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #77a466;
+	text-transform:uppercase;
+}
+#about p {
+	font-family:'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #2b2b2b;
+  line-height: 30px;
+  padding-right: 45px;
+}
+
+/***** MENU *****/
+#menu {
+		border: 1px solid gray;
+		border-left: none;
+}
+#menu p {
+	font-size: 16px;
+	font-family:'Montserrat', sans-serif;
+	color: #9bbc8f;
+}
+/***** REVIEWS *****/
+#reviews {
+	border: 1px solid gray;
+	padding-left: 30px;
+}
+#reviews p {
+	font-family:'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 1.313;
+	height: 120px;
+	padding-right: 45px;
+}
+/***** CONTACT *****/
+#contact {
+	font-family:'Montserrat', sans-serif;
+	font-size: 16px;
+	padding-left: 30px;
+	border: 1px solid gray;
+	border-right: none;
+}
+/***** FOOTER *****/
+footer {
+	font-family:'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform:uppercase;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+footer span {
+	color: #9bbc8f;
+	font-size: 16px;
+	font-family: "Wisdom";
+}
